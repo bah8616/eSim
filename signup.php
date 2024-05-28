@@ -49,9 +49,9 @@
 
         <ol>
           <li><a href="index.php">Home</a></li>
-          <li>Signup</li>
+          <li>Sign up</li>
         </ol>
-        <h2>Signup</h2>
+        <h2>Signing up</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -96,7 +96,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">A confirmation message has been sent to your email. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit">Signup</button></div>
+            <div class="text-center"><button type="submit">Signing up</button></div>
         </form>
     </div>
 
