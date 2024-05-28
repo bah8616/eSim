@@ -75,7 +75,7 @@
         <div class="row justify-content-center">
   <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
     <div class="pic">
-      <img src="assets/img/yehaoesim.png" height="400" width="820" alt="">
+      <img src="assets/img/esim.png" height="400" width="820" alt="">
     </div>
   </div>
 </div>
@@ -84,121 +84,240 @@
       </div>
     </section><!-- End how it works Section -->
 
-     <!-- ======= Pricing Section ======= -->
-     <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
+  
+<!-- ======= Pricing Section ======= -->
+<section id="pricing" class="pricing">
+    <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
-          <p>We offer best prices for all data plans</p>
+            <h2>Pricing</h2>
+            <p>Check our affordable prices for your best data plan</p>
         </div>
 
         <div class="row">
+            
+            <div class="row my-5">
+                <div class="col-12 text-center">
+                    <h3 class="divider-title">Time Based Plans</h3>
+                    <hr class="divider-line">
+                    <p class="mt-3">Our time-based plans offer flexibility and convenience, ensuring you stay connected without worrying about data limits. Choose a plan that fits your schedule and enjoy uninterrupted service.</p>
+                </div>
+            </div>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Local</h3>
-              <h4><sup>$</sup>0<span>per month</span></h4>
-              <ul>
-                <li><i class="bx bx-check"></i> Free local calls</li>
-                <li><i class="bx bx-check"></i> Unlimited SMS</li>
-                <li class="na"><i class="bx bx-x"></i> <span>International Calls</span></li>
-                <li class="na"><i class="bx bx-x"></i> <span>Unlimited Roaming</span></li>
-              </ul>
-              <a href="https://bbbootstrap.com/snippets/embed/bootstrap-5-payment-form-payment-methods-83265795" class="buy-btn">Get Started</a>
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="box">
+                    <h3>Local</h3>
+                    <h4><sup>€</sup>5<span>per week</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Free local calls</li>
+                        <li><i class="bx bx-check"></i> Unlimited SMS</li>
+                        <li class="na"><i class="bx bx-x"></i> <span>International Calls</span></li>
+                        <li class="na"><i class="bx bx-x"></i> <span>Unlimited Roaming</span></li>
+                    </ul>
+                    <div class="d-flex flex-column justify-content-between align-items-center">
+                        <form action="cart.php" method="get">
+                            <input type="hidden" name="package" value="Time Based Plans - Local">
+                            <select name="quantity" class="form-select" aria-label="Select quantity or days">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select> <br>
+                            <button type="submit" class="buy-btn">Get Started</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                <div class="box featured">
+                    <h3>Europe</h3>
+                    <h4><sup>€</sup>29<span>per week</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Free Regional calls</li>
+                        <li><i class="bx bx-check"></i> Unlimited SMS</li>
+                        <li><i class="bx bx-check"></i> Unlimited Facetime</li>
+                        <li><i class="bx bx-check"></i> Limited Roaming</li>
+                    </ul>
+                    <div class="d-flex flex-column justify-content-between align-items-center">
+                        <form action="cart.php" method="get">
+                            <input type="hidden" name="package" value="Time Based Plans - Europe">
+                            <select name="quantity" class="form-select" aria-label="Select quantity or days">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select> <br>
+                            <button type="submit" class="buy-btn">Get Started</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="box">
+                    <h3>Global</h3>
+                    <h4><sup>€</sup>49<span>per week</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Free Global calls</li>
+                        <li><i class="bx bx-check"></i> Unlimited SMS</li>
+                        <li><i class="bx bx-check"></i> Unlimited Facetime</li>
+                        <li><i class="bx bx-check"></i> Unlimited Roaming</li>
+                    </ul>
+                     <div class="d-flex flex-column justify-content-between align-items-center">
+                        <form action="cart.php" method="get">
+                            <input type="hidden" name="package" value="Time Based Plans - Global">
+                            <select name="quantity" class="form-select" aria-label="Select quantity or days">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select> <br>
+                            <button type="submit" class="buy-btn">Get Started</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider with labels -->
+            <div class="row my-5">
+                <div class="col-12 text-center">
+                    <h3 class="divider-title">Traffic Based Plans</h3>
+                    <hr class="divider-line">
+                    <p class="mt-3">Our traffic-based plans are perfect for users who need high data volumes. Whether you're streaming, gaming, or working remotely, we have a plan to keep you connected all year round.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="box d-flex flex-column">
+                    <h3>Local</h3>
+                    <h4><sup>€</sup>5 for 5GB<span>valid for 1 year</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Free local calls</li>
+                        <li><i class="bx bx-check"></i> Unlimited SMS</li>
+                        <li class="na"><i class="bx bx-x"></i> <span>International Calls</span></li>
+                        <li class="na"><i class="bx bx-x"></i> <span>Unlimited Roaming</span></li>
+                    </ul>
+                     <div class="d-flex flex-column justify-content-between align-items-center">
+                        <form action="cart.php" method="get">
+                            <input type="hidden" name="package" value="Traffic Based Plans - Local">
+                            <select name="quantity" class="form-select" aria-label="Select quantity or days">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select> <br>
+                            <button type="submit" class="buy-btn">Get Started</button>
+                        </form>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                <div class="box d-flex flex-column featured">
+                    <h3>Europe</h3>
+                    <h4><sup>€</sup>10 for 5 GB<span>valid for 1 year</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Free Regional calls</li>
+                        <li><i class="bx bx-check"></i> Unlimited SMS</li>
+                        <li><i class="bx bx-check"></i> Unlimited Facetime</li>
+                        <li><i class="bx bx-check"></i> Limited Roaming</li>
+                    </ul>
+                    <div class="d-flex flex-column justify-content-between align-items-center">
+                        <form action="cart.php" method="get">
+                            <input type="hidden" name="package" value="Traffic Based Plans - Europe">
+                            <select name="quantity" class="form-select" aria-label="Select quantity or days">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select> <br>
+                            <button type="submit" class="buy-btn">Get Started</button>
+                        </form> 
+                </div>
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>Europe</h3>
-              <h4><sup>$</sup>29<span>per month</span></h4>
-              <ul>
-              <li><i class="bx bx-check"></i> Free Regional calls</li>
-                <li><i class="bx bx-check"></i> Unlimited SMS</li>
-                <li><i class="bx bx-check"></i> Unlimited Facetime</li>
-                <li><i class="bx bx-check"></i> limited Roaming</li>
-              </ul>
-              <a href="Dashboard.php" class="buy-btn">Get Started</a>
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="box d-flex flex-column">
+                    <h3>Global</h3>
+                    <h4><sup>€</sup>20 for 5GB<span>valid for 1 year</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> Free Global calls</li>
+                        <li><i class="bx bx-check"></i> Unlimited SMS</li>
+                        <li><i class="bx bx-check"></i> Unlimited Facetime</li>
+                        <li><i class="bx bx-check"></i> Unlimited Roaming</li>
+                    </ul>
+                    <div class="d-flex flex-column justify-content-between align-items-center">
+                        <form action="cart.php" method="get">
+                            <input type="hidden" name="package" value="Traffic Based Plans - Global">
+                            <select name="quantity" class="form-select" aria-label="Select quantity or days">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select> <br>
+                            <button type="submit" class="buy-btn">Get Started</button>
+                        </form>
+                </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Global</h3>
-              <h4><sup>$</sup>49<span>per month</span></h4>
-              <ul>
-              <li><i class="bx bx-check"></i> Free Global calls</li>
-                <li><i class="bx bx-check"></i> Unlimited SMS</li>
-                <li><i class="bx bx-check"></i> Unlimited Facetime</li>
-                <li><i class="bx bx-check"></i> Unlimited Roaming</li>
-              </ul>
-              <a href="https://bbbootstrap.com/snippets/embed/bootstrap-5-payment-form-payment-methods-83265795" class="buy-btn">Get Started</a>
-            </div>
-          </div>
 
         </div>
 
-      </div>
-    </section><!-- End Pricing Section -->
+    </div>
+</section><!-- End Pricing Section -->
      <!-- ======= Data Section ======= -->
-     <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
+    <!-- <section id="portfolio" class="portfolio">-->
+    <!--  <div class="container" data-aos="fade-up">-->
 
-        <div class="section-title">
-          <h2>Data Plan</h2>
-          <p>Choose from our amazing data plan for your internet</p>
-        </div>
+    <!--    <div class="section-title">-->
+    <!--      <h2>Data Plan</h2>-->
+    <!--      <p>Choose from our amazing data plan for your internet</p>-->
+    <!--    </div>-->
 
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">Local</li>
-          <li data-filter=".filter-card">Continental</li>
-          <li data-filter=".filter-web">Global</li>
-        </ul>
+    <!--    <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">-->
+    <!--      <li data-filter="*" class="filter-active">All</li>-->
+    <!--      <li data-filter=".filter-app">Local</li>-->
+    <!--      <li data-filter=".filter-card">Continental</li>-->
+    <!--      <li data-filter=".filter-web">Global</li>-->
+    <!--    </ul>-->
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+    <!--    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/data plan.jpeg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+    <!--        <div class="portfolio-img"><img src="assets/img/checkout/dataplan.jpeg" class="img-fluid" alt=""></div>-->
+    <!--        <div class="portfolio-info">-->
+    <!--          <h4>Web 3</h4>-->
+    <!--          <p>Web</p>-->
+    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
+    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+    <!--      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/data plan.jpeg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+    <!--        <div class="portfolio-img"><img src="assets/img/portfolio/dataplan.jpeg" class="img-fluid" alt=""></div>-->
+    <!--        <div class="portfolio-info">-->
+    <!--          <h4>Web 3</h4>-->
+    <!--          <p>Web</p>-->
+    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
+    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+    <!--        </div>-->
+    <!--      </div>-->
 
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+    <!--      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/data plan.jpeg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+    <!--        <div class="portfolio-img"><img src="assets/img/portfolio/dataplan.jpeg" class="img-fluid" alt=""></div>-->
+    <!--        <div class="portfolio-info">-->
+    <!--          <h4>Web 3</h4>-->
+    <!--          <p>Web</p>-->
+    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
+    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+    <!--        </div>-->
+    <!--      </div>-->
 
           
 
-        </div>
+    <!--    </div>-->
 
-      </div>
-    </section><!-- End Portfolio Section -->
+    <!--  </div>-->
+    <!--</section><!-- End Portfolio Section -->-->
 
 
     <!-- ======= About Us Section ======= -->
