@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Yehao eSim - Index</title>
+  <title>eSim World</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -34,7 +34,7 @@
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.php">Yehao eSim</a></h1>
+      <h1 class="logo me-auto"><a href="index.php">eSim World</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -46,12 +46,6 @@
           <li><a class="nav-link   scrollto" href="#portfolio">Data Plan</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-             
-              <li><a href="Dashboard.php">Dashboad</a></li>
-                  <li><a href="checkout.php"> Checkout</a></li>
-           
-            </ul>
           </li>
           <li><a class="nav-link scrollto" href="signup.php">Signup</a></li>
           <li><a class="getstarted scrollto" href="login.php">Login</a></li>

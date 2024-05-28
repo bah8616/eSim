@@ -20,7 +20,7 @@
     <div class="row">
 
       <div class="col-lg-3 col-md-6 footer-contact">
-        <h3>Yehao eSIm</h3>
+        <h3>eSim World</h3>
         <p>
           Info Park <br>
           Budapest<br>
@@ -70,7 +70,7 @@
 
 <div class="container footer-bottom clearfix">
   <div class="copyright">
-    &copy; Copyright <strong><span>Yehao D GoAT</span></strong>. All Rights Reserved
+    &copy; Copyright <strong><span>eSim World</span></strong>. All Rights Reserved
   </div>
   <div class="credits">
 
