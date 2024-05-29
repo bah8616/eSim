@@ -53,6 +53,7 @@ if (isset($_SESSION['name'])) {
           <li class="dropdown"><a href="#"><span>Profile</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Dashboard.php">Dashboad</a></li>
+              <li><a href="checkout.php">Check my eSim</a></li>
               <li class="dropdown"><a href="#"><span>Cart</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="cart.php">Cart</a></li>
