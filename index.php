@@ -20,7 +20,7 @@ if (isset($_SESSION['name'])) {
           <h1>Better Solutions For Your Business and Travel</h1>
           <h2>We are team of talented devlopers</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#howwork" class="btn-get-started scrollto">Get Started</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
@@ -70,7 +70,7 @@ if (isset($_SESSION['name'])) {
     </section><!-- End Cliens Section -->
 
      <!-- ======= How it work Section ======= -->
-     <section id="pricing" class="pricing">
+     <section id="howwork" class="howwork">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -265,7 +265,71 @@ if (isset($_SESSION['name'])) {
         </div>
 
     </div>
+<<<<<<< HEAD
 </section>
+=======
+</section><!-- End Pricing Section -->
+     <!-- ======= Data Section ======= -->
+    <!-- <section id="portfolio" class="portfolio">-->
+    <!--  <div class="container" data-aos="fade-up">-->
+
+    <!--    <div class="section-title">-->
+    <!--      <h2>Data Plan</h2>-->
+    <!--      <p>Choose from our amazing data plan for your internet</p>-->
+    <!--    </div>-->
+
+    <!--    <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">-->
+    <!--      <li data-filter="*" class="filter-active">All</li>-->
+    <!--      <li data-filter=".filter-app">Local</li>-->
+    <!--      <li data-filter=".filter-card">Continental</li>-->
+    <!--      <li data-filter=".filter-web">Global</li>-->
+    <!--    </ul>-->
+
+    <!--    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
+
+    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+    <!--        <div class="portfolio-img"><img src="assets/img/checkout/dataplan.jpeg" class="img-fluid" alt=""></div>-->
+    <!--        <div class="portfolio-info">-->
+    <!--          <h4>Web 3</h4>-->
+    <!--          <p>Web</p>-->
+    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
+    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+    <!--        </div>-->
+    <!--      </div>-->
+
+    <!--      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
+
+    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+    <!--        <div class="portfolio-img"><img src="assets/img/portfolio/dataplan.jpeg" class="img-fluid" alt=""></div>-->
+    <!--        <div class="portfolio-info">-->
+    <!--          <h4>Web 3</h4>-->
+    <!--          <p>Web</p>-->
+    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
+    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+    <!--        </div>-->
+    <!--      </div>-->
+
+    <!--      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
+
+    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
+    <!--        <div class="portfolio-img"><img src="assets/img/portfolio/dataplan.jpeg" class="img-fluid" alt=""></div>-->
+    <!--        <div class="portfolio-info">-->
+    <!--          <h4>Web 3</h4>-->
+    <!--          <p>Web</p>-->
+    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
+    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+    <!--        </div>-->
+    <!--      </div>-->
+
+          
+
+    <!--    </div>-->
+
+    <!--  </div>-->
+    <!--</section><!-- End Portfolio Section -->
+
+
+>>>>>>> 6bed09245f16ec6571a07a364627bd887b78aa74
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -282,7 +346,7 @@ if (isset($_SESSION['name'])) {
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> Tackle even the most complex challenges in the eSIM industry.</li>
-              <li><i class="ri-check-double-line"></i> Deliver innovative solutions that drive real-world impact.t</li>
+              <li><i class="ri-check-double-line"></i> Deliver innovative solutions that drive real-world impact.</li>
               <li><i class="ri-check-double-line"></i> Deliver results that exceed expectations and create lasting value for 
                 our clients and partners.t</li>
             </ul>
@@ -360,10 +424,10 @@ if (isset($_SESSION['name'])) {
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
             <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p> For business users, we offer customized eSIM solutions to enhance connectivity and streamline your operations. Contact us today to get started!</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Boost your Business</a>
           </div>
         </div>
 
@@ -377,7 +441,7 @@ if (isset($_SESSION['name'])) {
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>We are the eSim World Development Team, specializing in the creation and enhancement of virtual SIM card technology. Our mission is to provide seamless, efficient, and secure connectivity solutions that empower users around the globe. With our cutting-edge innovations and commitment to excellence, we aim to redefine the future of mobile connectivity.</p>
         </div>
 
         <div class="row">
@@ -388,7 +452,7 @@ if (isset($_SESSION['name'])) {
               <div class="member-info">
                 <h4>Zhou Yehao</h4>
                 <span>Chief Executive Officer  </span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <p>"Leading innovation and driving success with strategic vision."</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -405,7 +469,7 @@ if (isset($_SESSION['name'])) {
               <div class="member-info">
                 <h4>Umaru Bah</h4>
                 <span>Product Manager</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <p>"Transforming ideas into impactful eSIM solutions."</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -424,7 +488,7 @@ if (isset($_SESSION['name'])) {
               <div class="member-info">
                 <h4>Mahmoudifar Arman</h4>
                 <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <p>"Engineering excellence and ensuring cutting-edge technology."</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -441,7 +505,7 @@ if (isset($_SESSION['name'])) {
               <div class="member-info">
                 <h4>Oubiche Houssameddine</h4>
                 <span>Developer</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <p>"Building seamless and efficient eSIM experiences."</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
