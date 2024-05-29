@@ -1,3 +1,11 @@
+<?php 
+session_start();
+if (isset($_SESSION['name'])) {
+    $name = $_SESSION['name'];
+} else {
+    $name = '';
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,24 +38,30 @@
 
 </head>
 
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top ">
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.php">eSim World</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
+      <h1 class="logo me-auto"><a href="index.php">esim World</a></h1>
+      
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-    
-          <li><a class="nav-link   scrollto" href="#pricing">Data Plan</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-
-          <li><a class="nav-link scrollto" href="signup.php">Sign up</a></li>
-          <li><a class="getstarted scrollto" href="login.php">Login</a></li>
+          <li><a class="nav-link scrollto" href="#Data Plan">Data Plan</a></li>
+          <li class="dropdown"><a href="#"><span>Profile</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="Dashboard.php">Dashboad</a></li>
+              <li class="dropdown"><a href="#"><span>Cart</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="cart.php">Cart</a></li>
+                </ul>
+              <li><a href="forms/logout.php">Log Out</a></li>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto"><?php echo "Hi, " . $name; ?></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

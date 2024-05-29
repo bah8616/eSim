@@ -1,5 +1,11 @@
-<!-- index.php -->
-<?php include 'header.php'; ?>
+<?php
+session_start();
+if (isset($_SESSION['name'])) {
+    include 'header-loggedin.php';
+} else {
+    include 'header.php';
+}
+?>
 
 <body>
 
@@ -115,7 +121,7 @@
                         <li class="na"><i class="bx bx-x"></i> <span>Unlimited Roaming</span></li>
                     </ul>
                     <div class="d-flex flex-column justify-content-between align-items-center">
-                        <form action="cart.php" method="get">
+                        <form action="forms/process_form.php" method="get">
                             <input type="hidden" name="package" value="Time Based Plans - Local">
                             <select name="quantity" class="form-select" aria-label="Select quantity or days">
                                 <option value="1">1</option>
@@ -139,7 +145,7 @@
                         <li><i class="bx bx-check"></i> Limited Roaming</li>
                     </ul>
                     <div class="d-flex flex-column justify-content-between align-items-center">
-                        <form action="cart.php" method="get">
+                        <form action="forms/process_form.php" method="get">
                             <input type="hidden" name="package" value="Time Based Plans - Europe">
                             <select name="quantity" class="form-select" aria-label="Select quantity or days">
                                 <option value="1">1</option>
@@ -163,7 +169,7 @@
                         <li><i class="bx bx-check"></i> Unlimited Roaming</li>
                     </ul>
                      <div class="d-flex flex-column justify-content-between align-items-center">
-                        <form action="cart.php" method="get">
+                        <form action="forms/process_form.php" method="get">
                             <input type="hidden" name="package" value="Time Based Plans - Global">
                             <select name="quantity" class="form-select" aria-label="Select quantity or days">
                                 <option value="1">1</option>
@@ -196,7 +202,7 @@
                         <li class="na"><i class="bx bx-x"></i> <span>Unlimited Roaming</span></li>
                     </ul>
                      <div class="d-flex flex-column justify-content-between align-items-center">
-                        <form action="cart.php" method="get">
+                        <form action="forms/process_form.php" method="get">
                             <input type="hidden" name="package" value="Traffic Based Plans - Local">
                             <select name="quantity" class="form-select" aria-label="Select quantity or days">
                                 <option value="1">1</option>
@@ -220,7 +226,7 @@
                         <li><i class="bx bx-check"></i> Limited Roaming</li>
                     </ul>
                     <div class="d-flex flex-column justify-content-between align-items-center">
-                        <form action="cart.php" method="get">
+                        <form action="forms/process_form.php" method="get">
                             <input type="hidden" name="package" value="Traffic Based Plans - Europe">
                             <select name="quantity" class="form-select" aria-label="Select quantity or days">
                                 <option value="1">1</option>
@@ -244,7 +250,7 @@
                         <li><i class="bx bx-check"></i> Unlimited Roaming</li>
                     </ul>
                     <div class="d-flex flex-column justify-content-between align-items-center">
-                        <form action="cart.php" method="get">
+                        <form action="forms/process_form.php" method="get">
                             <input type="hidden" name="package" value="Traffic Based Plans - Global">
                             <select name="quantity" class="form-select" aria-label="Select quantity or days">
                                 <option value="1">1</option>
@@ -259,67 +265,7 @@
         </div>
 
     </div>
-</section><!-- End Pricing Section -->
-     <!-- ======= Data Section ======= -->
-    <!-- <section id="portfolio" class="portfolio">-->
-    <!--  <div class="container" data-aos="fade-up">-->
-
-    <!--    <div class="section-title">-->
-    <!--      <h2>Data Plan</h2>-->
-    <!--      <p>Choose from our amazing data plan for your internet</p>-->
-    <!--    </div>-->
-
-    <!--    <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">-->
-    <!--      <li data-filter="*" class="filter-active">All</li>-->
-    <!--      <li data-filter=".filter-app">Local</li>-->
-    <!--      <li data-filter=".filter-card">Continental</li>-->
-    <!--      <li data-filter=".filter-web">Global</li>-->
-    <!--    </ul>-->
-
-    <!--    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
-
-    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
-    <!--        <div class="portfolio-img"><img src="assets/img/checkout/dataplan.jpeg" class="img-fluid" alt=""></div>-->
-    <!--        <div class="portfolio-info">-->
-    <!--          <h4>Web 3</h4>-->
-    <!--          <p>Web</p>-->
-    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
-    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-    <!--        </div>-->
-    <!--      </div>-->
-
-    <!--      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
-
-    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
-    <!--        <div class="portfolio-img"><img src="assets/img/portfolio/dataplan.jpeg" class="img-fluid" alt=""></div>-->
-    <!--        <div class="portfolio-info">-->
-    <!--          <h4>Web 3</h4>-->
-    <!--          <p>Web</p>-->
-    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
-    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-    <!--        </div>-->
-    <!--      </div>-->
-
-    <!--      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">-->
-
-    <!--      <div class="col-lg-4 col-md-6 portfolio-item filter-web">-->
-    <!--        <div class="portfolio-img"><img src="assets/img/portfolio/dataplan.jpeg" class="img-fluid" alt=""></div>-->
-    <!--        <div class="portfolio-info">-->
-    <!--          <h4>Web 3</h4>-->
-    <!--          <p>Web</p>-->
-    <!--          <a href="assets/img/portfolio/data plan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
-    <!--          <a href="checkout.php" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-    <!--        </div>-->
-    <!--      </div>-->
-
-          
-
-    <!--    </div>-->
-
-    <!--  </div>-->
-    <!--</section><!-- End Portfolio Section -->-->
-
-
+</section>
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
