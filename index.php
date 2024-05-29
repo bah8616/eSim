@@ -265,9 +265,6 @@ if (isset($_SESSION['name'])) {
         </div>
 
     </div>
-<<<<<<< HEAD
-</section>
-=======
 </section><!-- End Pricing Section -->
      <!-- ======= Data Section ======= -->
     <!-- <section id="portfolio" class="portfolio">-->
@@ -329,7 +326,6 @@ if (isset($_SESSION['name'])) {
     <!--</section><!-- End Portfolio Section -->
 
 
->>>>>>> 6bed09245f16ec6571a07a364627bd887b78aa74
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">

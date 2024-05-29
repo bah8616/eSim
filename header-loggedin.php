@@ -49,7 +49,7 @@ if (isset($_SESSION['name'])) {
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#Data Plan">Data Plan</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Data Plan</a></li>
           <li class="dropdown"><a href="#"><span>Profile</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="Dashboard.php">Dashboad</a></li>
