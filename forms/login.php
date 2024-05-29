@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
 
             // Redirect to dashboard or another appropriate page if no pending form data
-            header("Location: ../Dashboard.php");
+            header("Location: ../index.php");
             exit();
         } else {
             header("Location: ../login.php");
